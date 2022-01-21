@@ -1,0 +1,66 @@
+.bac {
+    width: 250px;
+    height: 380px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 1px #6dc86b;
+    background-color: white;
+}
+
+.bac_body {
+    height: 100px;
+    padding: 5px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: right;
+    background-color: transparent;
+    color: #50e3c2;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.bac_body h2 {
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bac_button table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+    border-collapse: collapse;
+}
+
+.bac_button button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #50e3ab;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.bac_button td {
+    width: 80px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+.bac_button .Btnequal {
+    background-color: orange;
+}
+
+.bac_button .Btnadd,
+.bac_button .Btnreduce,
+.bac_button .Btnmultiply,
+.bac_button .Btndivide {
+    background-color: #91ea63;
+}

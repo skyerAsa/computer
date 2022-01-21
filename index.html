@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="bac">
+        <div class="bac_body">
+            <p id="showmin"></p>
+            <h2 id="show" onKeyUp="cal_words()">0</h2>
+        </div>
+        <div class="bac_button" id="bac_button">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="opacity: 1">
+                            <button class="BtnAc" onclick="showclear()">AC</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="BtnAc" onclick="showdel()">Del</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="btnshadowTop" onclick="dot()">.</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btnadd" onclick="add()">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="opacity: 1">
+                            <button class="BtnSe" onclick="keynumber('7')">7</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btneig" onclick="keynumber('8')">8</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btnnin" onclick="keynumber('9')">9</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btnreduce" onclick="sub('-')">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="opacity: 1">
+                            <button class="BtnFo" onclick="keynumber('4')">4</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="BtnFi" onclick="keynumber('5')">5</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btnsi" onclick="keynumber('6')">6</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btnmultiply" onclick="multi('*')">*</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="opacity: 1">
+                            <button class="BtnOn" onclick="keynumber('1')">1</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="BtnTw" onclick="keynumber('2')">2</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="BtnTh" onclick="keynumber('3')">3</button>
+                        </td>
+                        <td style="opacity: 1">
+                            <button class="Btndivide" onclick="division('/')">/</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="opacity: 1">
+                            <button class="BtnZe" onclick="keynumber('0')">0</button>
+                        </td>
+                        <td colspan="3" style="opacity: 1">
+                            <button class="Btnequal" onclick="equal('=')">=</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script src="js/data.js"></script>
+</body>
+
+</html>
